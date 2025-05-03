@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Class 12 Physics - ASAP</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+      padding: 30px;
+      margin: 0;
+    }
+
+    h1 {
+      text-align: center;
+      color: #0d47a1;
+      font-size: 36px;
+    }
+
+    .selection-container {
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 25px;
+    }
+
+    select,
+    button {
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 8px;
+      border: 1px solid #0d47a1;
+      background-color: #e3f2fd;
+      cursor: pointer;
+    }
+
+    button {
+      background-color: #0d47a1;
+      color: white;
+      font-weight: bold;
+      min-width: 120px;
+    }
+
+    button:hover {
+      background-color: #1565c0;
+    }
+
+    .container {
+      display: flex;
+      gap: 40px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+
+    .question-list,
+    .preview {
+      flex: 1;
+      background: #ffffff;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      max-height: 500px;
+      overflow-y: auto;
+      font-size: 18px;
+    }
+
+    .question-item {
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      background-color: #f0f8ff;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .question-item input[type="checkbox"] {
+      margin-bottom: 5px;
+    }
+
+    .question-text {
+      font-weight: bold;
+    }
+
+    .option {
+      margin-left: 20px;
+    }
+
+    .selected-count {
+      text-align: center;
+      font-weight: bold;
+      color: #0d47a1;
+      margin-top: 10px;
+      font-size: 20px;
+    }
+
+    .back {
+      display: block;
+      margin: 30px auto;
+      text-align: center;
+      text-decoration: none;
+      color: #1565c0;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Class 12 - Physics</h1>
+
+  <div class="selection-container">
+    <select id="chapter-select">
+      <option value="">Select Chapter</option>
+      <option value="chapter1">1. Electric Charges and Fields</option>
+      <option value="chapter2">2. Electrostatic Potential and Capacitance</option>
+      <option value="chapter3">3. Current Electricity</option>
+      <option value="chapter4">4. Moving Charges and Magnetism</option>
+      <option value="chapter5">5. Magnetism and Matter</option>
+      <option value="chapter6">6. Electromagnetic Induction</option>
+      <option value="chapter7">7. Alternating Current</option>
+      <option value="chapter8">8. Electromagnetic Waves</option>
+      <option value="chapter9">9. Ray Optics and Optical Instruments</option>
+      <option value="chapter10">10. Wave Optics</option>
+      <option value="chapter11">11. Dual Nature of Radiation and Matter</option>
+      <option value="chapter12">12. Atoms</option>
+      <option value="chapter13">13. Nuclei</option>
+      <option value="chapter14">14. Semiconductor Electronics</option>
+    </select>
+
+    <select id="question-type">
+      <option value="mcqs">MCQ</option>
+      <option value="assertionReasoning">Assertion and Reasoning</option>
+    </select>
+
+    <button id="retrieve-btn">Retrieve</button>
+    <button id="generate-btn">Generate</button>
+  </div>
+
+  <div class="selected-count" id="selectedCount">Selected Questions: 0</div>
+
+  <div class="container">
+    <div class="question-list" id="questionList">
+      <h2>Available Questions</h2>
+    </div>
+
+    <div class="preview" id="preview">
+      <h2>Preview</h2>
+      <p>Select a question checkbox to preview it here.</p>
+    </div>
+  </div>
+
+  <a class="back" href="../class12.html">← Back to Subjects</a>
+
+  <!-- Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+
+  <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyClGmWdBBiC5805nEGFKLnWv4p1qgAio40",
+      authDomain: "medicine-indicator-1fbc8.firebaseapp.com",
+      databaseURL: "https://medicine-indicator-1fbc8-default-rtdb.firebaseio.com",
+      projectId: "medicine-indicator-1fbc8",
+      storageBucket: "medicine-indicator-1fbc8.appspot.com",
+      messagingSenderId: "553743088878",
+      appId: "1:553743088878:web:594db03aa078359f7d47ff",
+      measurementId: "G-5EQ8TP9ER6"
+    };
+
+    firebase.initializeApp(firebaseConfig);
+    const db = firebase.database();
+
+    const chapterSelectEl = document.getElementById('chapter-select');
+    const questionTypeEl = document.getElementById('question-type');
+    const questionListEl = document.getElementById('questionList');
+    const previewEl = document.getElementById('preview');
+    const selectedCountEl = document.getElementById('selectedCount');
+
+    let selectedCount = 0;
+
+    function fetchQuestions(chapter, questionType) {
+      const chapterRef = db.ref(`Class12/Physics_Chapters/${chapter}/${questionType}`);
+      chapterRef.once('value', snapshot => {
+        const questions = snapshot.val();
+        renderQuestions(questions);
+      });
+    }
+
+    function renderQuestions(questions) {
+      questionListEl.innerHTML = "<h2>Available Questions</h2>";
+      selectedCount = 0;
+      selectedCountEl.textContent = `Selected Questions: ${selectedCount}`;
+      previewEl.innerHTML = `<h2>Preview</h2><p>Select a question checkbox to preview it here.</p>`;
+
+      if (questions) {
+        Object.values(questions).forEach((item, i) => {
+          const container = document.createElement("div");
+          container.className = "question-item";
+
+          const checkbox = document.createElement("input");
+          checkbox.type = "checkbox";
+          checkbox.addEventListener("change", () => {
+            let questionHTML = '';
+            if (questionTypeEl.value === "mcqs") {
+              questionHTML = `<p><strong>Q:</strong> ${item.questionText}</p>`;
+              item.options.forEach(opt => {
+                questionHTML += `<p>${opt}</p>`;
+              });
+              questionHTML += `<p><strong>Answer:</strong> ${item.answer}</p>`;
+            } else {
+              questionHTML = `<p><strong>Assertion:</strong> ${item.assertion}</p><p><strong>Reason:</strong> ${item.reason}</p>`;
+              item.options.forEach(opt => {
+                questionHTML += `<p>${opt}</p>`;
+              });
+              questionHTML += `<p><strong>Answer:</strong> ${item.correctAnswer}</p>`;
+            }
+            previewEl.innerHTML = `<h2>Preview</h2>${questionHTML}`;
+            previewEl.innerHTML = `<h2>Preview</h2>${questionHTML}`;
+            checkbox.checked ? selectedCount++ : selectedCount--;
+            selectedCountEl.textContent = `Selected Questions: ${selectedCount}`;
+          });
+
+          const label = document.createElement("label");
+          const questionText = questionTypeEl.value === "mcqs" ? item.questionText : item.assertion;
+          label.innerHTML = `${i + 1}. <span class="question-text">${questionText}</span>`;
+
+          const optionsContainer = document.createElement("div");
+          optionsContainer.className = "options";
+          (item.options || []).forEach(opt => {
+            const optEl = document.createElement("div");
+            optEl.className = "option";
+            optEl.textContent = opt;
+            optionsContainer.appendChild(optEl);
+          });
+
+          container.appendChild(checkbox);
+          container.appendChild(label);
+          container.appendChild(optionsContainer);
+          questionListEl.appendChild(container);
+        });
+      } else {
+        previewEl.innerHTML = `<h2>No Questions Found</h2><p>No questions available for the selected chapter and type.</p>`;
+      }
+    }
+
+    document.getElementById("retrieve-btn").addEventListener("click", () => {
+      const chapter = chapterSelectEl.value;
+      const questionType = questionTypeEl.value;
+      if (chapter) {
+        fetchQuestions(chapter, questionType);
+      } else {
+        alert("Please select a chapter.");
+      }
+    });
+
+    document.getElementById("generate-btn").addEventListener("click", () => {
+      const selectedQuestions = document.querySelectorAll('.question-item input[type="checkbox"]:checked');
+      if (selectedQuestions.length === 0) {
+        alert("Please select at least one question to generate the Word file.");
+        return;
+      }
+
+      let content = "<h2>ASAP - Generated Question Paper</h2>";
+      selectedQuestions.forEach((checkbox, index) => {
+        const questionItem = checkbox.closest(".question-item");
+        const questionText = questionItem.querySelector(".question-text")?.textContent || "";
+        const options = questionItem.querySelectorAll(".option");
+
+        content += `<p><strong>Q${index + 1}.</strong> ${questionText}</p>`;
+        options.forEach((opt, i) => {
+          const label = String.fromCharCode(65 + i); // A, B, C, D...
+          content += `<p style="margin-left: 20px;">${label}. ${opt.textContent}</p>`;
+        });
+        content += "<br/>";
+      });
+
+      const header = "<html xmlns:o='urn:schemas-microsoft-com:office:office' " +
+        "xmlns:w='urn:schemas-microsoft-com:office:word' " +
+        "xmlns='http://www.w3.org/TR/REC-html40'>" +
+        "<head><meta charset='utf-8'></head><body>";
+      const footer = "</body></html>";
+      const sourceHTML = header + content + footer;
+
+      const blob = new Blob(['\ufeff', sourceHTML], { type: 'application/msword' });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = 'ASAP_Question_Paper.doc';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    });
+  </script>
+</body>
+
+</html>
