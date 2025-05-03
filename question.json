@@ -1,0 +1,1572 @@
+{
+  "Class11": {
+    "Physics_Chapters": {
+      "chapter1": {
+        "mcqs": {
+          "question1": {
+            "questionText": "What is the SI unit of force?",
+            "options": [
+              "Newton",
+              "Joule",
+              "Pascal",
+              "Watt"
+            ],
+            "answer": "Newton"
+          },
+          "question2": {
+            "questionText": "What is the acceleration due to gravity on Earth?",
+            "options": [
+              "9.8 m/s²",
+              "10 m/s²",
+              "8.9 m/s²",
+              "9.5 m/s²"
+            ],
+            "answer": "9.8 m/s²"
+          },
+          "question3": {
+            "questionText": "Which of the following is a vector quantity?",
+            "options": [
+              "Speed",
+              "Distance",
+              "Velocity",
+              "Mass"
+            ],
+            "answer": "Velocity"
+          },
+          "question4": {
+            "questionText": "Which law states that every action has an equal and opposite reaction?",
+            "options": [
+              "Newton's First Law",
+              "Newton's Second Law",
+              "Newton's Third Law",
+              "Law of Conservation of Energy"
+            ],
+            "answer": "Newton's Third Law"
+          },
+          "question5": {
+            "questionText": "What is the formula for work?",
+            "options": [
+              "Work = Force × Distance",
+              "Work = Force / Distance",
+              "Work = Force + Distance",
+              "Work = Force - Distance"
+            ],
+            "answer": "Work = Force × Distance"
+          }
+        },
+        "assertionReasoning": {
+          "question1": {
+            "assertion": "All objects fall under gravity.",
+            "reason": "Gravity pulls everything towards the Earth's center.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question2": {
+            "assertion": "The Earth revolves around the Sun in an elliptical orbit.",
+            "reason": "The gravitational force of the Sun keeps the Earth in orbit.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question3": {
+            "assertion": "An object in motion will continue in motion unless acted upon by an external force.",
+            "reason": "This is a statement of Newton's First Law of Motion.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question4": {
+            "assertion": "The energy of a moving object is proportional to its velocity squared.",
+            "reason": "This is described by the kinetic energy formula (K.E. = 1/2 mv²).",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question5": {
+            "assertion": "Work done by a force is zero if the displacement is zero.",
+            "reason": "Work is the product of force and displacement in the direction of the force.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          }
+        }
+      },
+      "chapter2": {
+        "mcqs": {
+          "question1": {
+            "questionText": "What is the unit of measurement for electric current?",
+            "options": [
+              "Ampere",
+              "Volt",
+              "Ohm",
+              "Watt"
+            ],
+            "answer": "Ampere"
+          },
+          "question2": {
+            "questionText": "Which of these materials is a conductor of electricity?",
+            "options": [
+              "Copper",
+              "Wood",
+              "Rubber",
+              "Plastic"
+            ],
+            "answer": "Copper"
+          },
+          "question3": {
+            "questionText": "What is the formula for Ohm's Law?",
+            "options": [
+              "V = IR",
+              "V = I/R",
+              "V = I + R",
+              "V = I - R"
+            ],
+            "answer": "V = IR"
+          },
+          "question4": {
+            "questionText": "Which of the following is an example of a non-renewable energy source?",
+            "options": [
+              "Solar energy",
+              "Wind energy",
+              "Coal",
+              "Hydropower"
+            ],
+            "answer": "Coal"
+          },
+          "question5": {
+            "questionText": "What is the unit of power?",
+            "options": [
+              "Joule",
+              "Newton",
+              "Watt",
+              "Volt"
+            ],
+            "answer": "Watt"
+          }
+        },
+        "assertionReasoning": {
+          "question1": {
+            "assertion": "An electric current creates a magnetic field.",
+            "reason": "This is the principle behind electromagnets and motors.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question2": {
+            "assertion": "Light travels faster in vacuum than in air.",
+            "reason": "Vacuum has no particles to slow down the speed of light.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question3": {
+            "assertion": "The power of an electric device is the rate at which it consumes energy.",
+            "reason": "Power is the product of current and voltage, which is the rate of energy consumption.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question4": {
+            "assertion": "The resistance of a conductor is directly proportional to its length.",
+            "reason": "Resistance increases as the length of the conductor increases.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question5": {
+            "assertion": "Electric current can pass through a vacuum.",
+            "reason": "A vacuum provides no resistance to the flow of electric charge.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          }
+        }
+      },
+      "chapter3": {
+        "mcqs": {
+          "question1": {
+            "questionText": "What is the unit of electric charge?",
+            "options": [
+              "Coulomb",
+              "Ampere",
+              "Volt",
+              "Watt"
+            ],
+            "answer": "Coulomb"
+          },
+          "question2": {
+            "questionText": "Which of the following is a conductor?",
+            "options": [
+              "Copper",
+              "Wood",
+              "Rubber",
+              "Glass"
+            ],
+            "answer": "Copper"
+          },
+          "question3": {
+            "questionText": "What is the potential difference across a conductor?",
+            "options": [
+              "Current",
+              "Voltage",
+              "Power",
+              "Resistance"
+            ],
+            "answer": "Voltage"
+          },
+          "question4": {
+            "questionText": "The electrical resistance of a conductor depends on its:",
+            "options": [
+              "Length",
+              "Temperature",
+              "Material",
+              "All of the above"
+            ],
+            "answer": "All of the above"
+          },
+          "question5": {
+            "questionText": "Which of the following describes Ohm’s Law?",
+            "options": [
+              "V = IR",
+              "V = I/R",
+              "V = I + R",
+              "V = R/I"
+            ],
+            "answer": "V = IR"
+          }
+        },
+        "assertionReasoning": {
+          "question1": {
+            "assertion": "Resistance is inversely proportional to the cross-sectional area of a conductor.",
+            "reason": "A larger cross-sectional area allows more flow of current.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question2": {
+            "assertion": "Electric potential difference is the work done to move a charge between two points.",
+            "reason": "This work is done against the electric field.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question3": {
+            "assertion": "Current is the flow of electric charge.",
+            "reason": "The amount of charge passing through a conductor per second is defined as current.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question4": {
+            "assertion": "Resistance increases with increasing temperature for most conductors.",
+            "reason": "Higher temperatures cause more vibrations of atoms, which impede the flow of electrons.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question5": {
+            "assertion": "Ohm’s Law is applicable to both conductors and insulators.",
+            "reason": "Ohm’s Law is only applicable to materials that obey a linear relation between voltage and current.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are False"
+          }
+        }
+      }
+    },
+    "Maths_Chapters": {
+      "chapter1": {
+        "mcqs": {
+          "question1": {
+            "questionText": "Which of the following is a subset of every set?",
+            "options": [
+              "Empty set",
+              "Universal set",
+              "Singleton set",
+              "Finite set"
+            ],
+            "answer": "Empty set"
+          },
+          "question2": {
+            "questionText": "What is the cardinality of the set A = {1, 2, 3, 4}?",
+            "options": [
+              "3",
+              "4",
+              "5",
+              "0"
+            ],
+            "answer": "4"
+          },
+          "question3": {
+            "questionText": "If A = {1, 2} and B = {2, 3}, then A ∪ B = ?",
+            "options": [
+              "{1, 2, 3}",
+              "{2}",
+              "{1, 3}",
+              "{1, 2}"
+            ],
+            "answer": "{1, 2, 3}"
+          },
+          "question4": {
+            "questionText": "Which of the following symbols denotes a proper subset?",
+            "options": [
+              "⊆",
+              "⊂",
+              "∈",
+              "⊃"
+            ],
+            "answer": "⊂"
+          },
+          "question5": {
+            "questionText": "What is the intersection of sets A = {1, 2, 3} and B = {2, 3, 4}?",
+            "options": [
+              "{1, 2}",
+              "{2, 3}",
+              "{1, 4}",
+              "{3}"
+            ],
+            "answer": "{2, 3}"
+          }
+        },
+        "assertionReasoning": {
+          "question1": {
+            "assertion": "The empty set is a subset of every set.",
+            "reason": "A set with no elements can never contradict any element of another set.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question2": {
+            "assertion": "The set of all even numbers is infinite.",
+            "reason": "Even numbers are multiples of 2 and go on indefinitely.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question3": {
+            "assertion": "Every set is a subset of itself.",
+            "reason": "This is because all elements of a set are also elements of itself.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question4": {
+            "assertion": "Universal set contains all sets under consideration.",
+            "reason": "Universal set varies depending on the context.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question5": {
+            "assertion": "Two sets are equal if they have the same elements.",
+            "reason": "The order of elements in a set matters.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Assertion is True, Reason is False"
+          }
+        }
+      },
+      "chapter2": {
+        "mcqs": {
+          "question1": {
+            "questionText": "What is the value of sin(90°)?",
+            "options": [
+              "0",
+              "1",
+              "-1",
+              "0.5"
+            ],
+            "answer": "1"
+          },
+          "question2": {
+            "questionText": "What is the value of cos(0°)?",
+            "options": [
+              "0",
+              "1",
+              "-1",
+              "Undefined"
+            ],
+            "answer": "1"
+          },
+          "question3": {
+            "questionText": "tan(θ) is equal to?",
+            "options": [
+              "sin(θ)/cos(θ)",
+              "cos(θ)/sin(θ)",
+              "sin(θ)×cos(θ)",
+              "cos(θ)+sin(θ)"
+            ],
+            "answer": "sin(θ)/cos(θ)"
+          },
+          "question4": {
+            "questionText": "What is the value of sin²(θ) + cos²(θ)?",
+            "options": [
+              "1",
+              "0",
+              "θ",
+              "2"
+            ],
+            "answer": "1"
+          },
+          "question5": {
+            "questionText": "Which quadrant is sin(θ) positive and cos(θ) negative?",
+            "options": [
+              "I",
+              "II",
+              "III",
+              "IV"
+            ],
+            "answer": "II"
+          }
+        },
+        "assertionReasoning": {
+          "question1": {
+            "assertion": "sin(90°) = 1",
+            "reason": "Sine of 90 degrees is the maximum value of the sine function.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question2": {
+            "assertion": "tan(90°) is undefined.",
+            "reason": "At 90°, cos(θ) is 0 and division by zero is undefined.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question3": {
+            "assertion": "cos(180°) = -1.",
+            "reason": "Cosine of angle in second quadrant is negative.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Assertion is True, Reason is False"
+          },
+          "question4": {
+            "assertion": "Trigonometric functions are periodic.",
+            "reason": "The values of these functions repeat after a fixed interval.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question5": {
+            "assertion": "cot(θ) = 1/tan(θ)",
+            "reason": "cotangent is the reciprocal of tangent function.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          }
+        }
+      }
+    },
+    "Chemistry_Chapters": {
+      "chapter1": {
+        "mcqs": {
+          "question1": {
+            "questionText": "Which of the following is a SI unit of amount of substance?",
+            "options": [
+              "Mole",
+              "Gram",
+              "Kilogram",
+              "Liter"
+            ],
+            "answer": "Mole"
+          },
+          "question2": {
+            "questionText": "What is the molar mass of water (H₂O)?",
+            "options": [
+              "18 g/mol",
+              "16 g/mol",
+              "20 g/mol",
+              "10 g/mol"
+            ],
+            "answer": "18 g/mol"
+          },
+          "question3": {
+            "questionText": "Which law states that mass can neither be created nor destroyed?",
+            "options": [
+              "Law of Conservation of Mass",
+              "Law of Definite Proportions",
+              "Law of Multiple Proportions",
+              "Avogadro's Law"
+            ],
+            "answer": "Law of Conservation of Mass"
+          },
+          "question4": {
+            "questionText": "Avogadro's number is:",
+            "options": [
+              "6.022 × 10²³",
+              "3.011 × 10²³",
+              "1.602 × 10⁻¹⁹",
+              "9.109 × 10⁻³¹"
+            ],
+            "answer": "6.022 × 10²³"
+          },
+          "question5": {
+            "questionText": "Which of the following represents the empirical formula?",
+            "options": [
+              "CH₂O",
+              "C₆H₁₂O₆",
+              "C₂H₄O₂",
+              "C₃H₆O₃"
+            ],
+            "answer": "CH₂O"
+          }
+        },
+        "assertionReasoning": {
+          "question1": {
+            "assertion": "Equal moles of different substances contain the same number of molecules.",
+            "reason": "One mole of any substance contains Avogadro's number of particles.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question2": {
+            "assertion": "The empirical formula of glucose is CH₂O.",
+            "reason": "Empirical formula represents the simplest whole-number ratio of atoms in a compound.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question3": {
+            "assertion": "Law of multiple proportions applies to compounds formed by different elements.",
+            "reason": "It states that when two elements form more than one compound, the masses of one element that combine with a fixed mass of the other are in the ratio of small whole numbers.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question4": {
+            "assertion": "Molar mass is the mass of one mole of a substance.",
+            "reason": "It is expressed in grams per mole (g/mol).",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question5": {
+            "assertion": "The molecular formula of a compound is always the same as its empirical formula.",
+            "reason": "Empirical formula gives the actual number of atoms of each element in a molecule.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are False"
+          }
+        }
+      },
+      "chapter2": {
+        "mcqs": {
+          "question1": {
+            "questionText": "Who proposed the planetary model of the atom?",
+            "options": [
+              "Bohr",
+              "Rutherford",
+              "Thomson",
+              "Dalton"
+            ],
+            "answer": "Bohr"
+          },
+          "question2": {
+            "questionText": "The charge of an electron is:",
+            "options": [
+              "-1.602 × 10⁻¹⁹ C",
+              "+1.602 × 10⁻¹⁹ C",
+              "0 C",
+              "1 C"
+            ],
+            "answer": "-1.602 × 10⁻¹⁹ C"
+          },
+          "question3": {
+            "questionText": "Which quantum number determines the shape of an orbital?",
+            "options": [
+              "Azimuthal quantum number (l)",
+              "Principal quantum number (n)",
+              "Magnetic quantum number (m)",
+              "Spin quantum number (s)"
+            ],
+            "answer": "Azimuthal quantum number (l)"
+          },
+          "question4": {
+            "questionText": "The number of orbitals in the third shell (n=3) is:",
+            "options": [
+              "9",
+              "3",
+              "6",
+              "18"
+            ],
+            "answer": "9"
+          },
+          "question5": {
+            "questionText": "Which of the following statements is true?",
+            "options": [
+              "Electrons revolve in fixed orbits around the nucleus.",
+              "Electrons have a definite path.",
+              "Heisenberg's uncertainty principle allows precise measurement of position and momentum.",
+              "Electrons are stationary in orbitals."
+            ],
+            "answer": "Electrons revolve in fixed orbits around the nucleus."
+          }
+        },
+        "assertionReasoning": {
+          "question1": {
+            "assertion": "Rutherford's model could not explain the stability of atoms.",
+            "reason": "According to classical physics, electrons revolving around the nucleus would emit energy and spiral into the nucleus.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question2": {
+            "assertion": "Bohr's model introduced the concept of quantized energy levels.",
+            "reason": "Electrons can occupy any energy level around the nucleus.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Assertion is True, Reason is False"
+          },
+          "question3": {
+            "assertion": "The principal quantum number determines the energy of an electron.",
+            "reason": "It also indicates the size of the orbital.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question4": {
+            "assertion": "Heisenberg's uncertainty principle states that the exact position and momentum of an electron cannot be simultaneously known.",
+            "reason": "This principle is significant only for macroscopic particles.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Assertion is True, Reason is False"
+          },
+          "question5": {
+            "assertion": "The azimuthal quantum number determines the orientation of an orbital.",
+            "reason": "It defines the shape of the orbital.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Assertion is False, Reason is True"
+          }
+        }
+      }
+    }
+  },
+  "Class12": {
+    "Physics_Chapters": {
+      "chapter1": {
+        "mcqs": {
+          "question1": {
+            "questionText": "What is the SI unit of force?",
+            "options": [
+              "Newton",
+              "Joule",
+              "Pascal",
+              "Watt"
+            ],
+            "answer": "Newton"
+          },
+          "question2": {
+            "questionText": "What is the acceleration due to gravity on Earth?",
+            "options": [
+              "9.8 m/s²",
+              "10 m/s²",
+              "8.9 m/s²",
+              "9.5 m/s²"
+            ],
+            "answer": "9.8 m/s²"
+          },
+          "question3": {
+            "questionText": "Which of the following is a vector quantity?",
+            "options": [
+              "Speed",
+              "Distance",
+              "Velocity",
+              "Mass"
+            ],
+            "answer": "Velocity"
+          },
+          "question4": {
+            "questionText": "Which law states that every action has an equal and opposite reaction?",
+            "options": [
+              "Newton's First Law",
+              "Newton's Second Law",
+              "Newton's Third Law",
+              "Law of Conservation of Energy"
+            ],
+            "answer": "Newton's Third Law"
+          },
+          "question5": {
+            "questionText": "What is the formula for work?",
+            "options": [
+              "Work = Force × Distance",
+              "Work = Force / Distance",
+              "Work = Force + Distance",
+              "Work = Force - Distance"
+            ],
+            "answer": "Work = Force × Distance"
+          }
+        },
+        "assertionReasoning": {
+          "question1": {
+            "assertion": "All objects fall under gravity.",
+            "reason": "Gravity pulls everything towards the Earth's center.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question2": {
+            "assertion": "The Earth revolves around the Sun in an elliptical orbit.",
+            "reason": "The gravitational force of the Sun keeps the Earth in orbit.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question3": {
+            "assertion": "An object in motion will continue in motion unless acted upon by an external force.",
+            "reason": "This is a statement of Newton's First Law of Motion.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question4": {
+            "assertion": "The energy of a moving object is proportional to its velocity squared.",
+            "reason": "This is described by the kinetic energy formula (K.E. = 1/2 mv²).",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question5": {
+            "assertion": "Work done by a force is zero if the displacement is zero.",
+            "reason": "Work is the product of force and displacement in the direction of the force.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          }
+        }
+      },
+      "chapter2": {
+        "mcqs": {
+          "question1": {
+            "questionText": "What is the unit of measurement for electric current?",
+            "options": [
+              "Ampere",
+              "Volt",
+              "Ohm",
+              "Watt"
+            ],
+            "answer": "Ampere"
+          },
+          "question2": {
+            "questionText": "Which of these materials is a conductor of electricity?",
+            "options": [
+              "Copper",
+              "Wood",
+              "Rubber",
+              "Plastic"
+            ],
+            "answer": "Copper"
+          },
+          "question3": {
+            "questionText": "What is the formula for Ohm's Law?",
+            "options": [
+              "V = IR",
+              "V = I/R",
+              "V = I + R",
+              "V = I - R"
+            ],
+            "answer": "V = IR"
+          },
+          "question4": {
+            "questionText": "Which of the following is an example of a non-renewable energy source?",
+            "options": [
+              "Solar energy",
+              "Wind energy",
+              "Coal",
+              "Hydropower"
+            ],
+            "answer": "Coal"
+          },
+          "question5": {
+            "questionText": "What is the unit of power?",
+            "options": [
+              "Joule",
+              "Newton",
+              "Watt",
+              "Volt"
+            ],
+            "answer": "Watt"
+          }
+        },
+        "assertionReasoning": {
+          "question1": {
+            "assertion": "An electric current creates a magnetic field.",
+            "reason": "This is the principle behind electromagnets and motors.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question2": {
+            "assertion": "Light travels faster in vacuum than in air.",
+            "reason": "Vacuum has no particles to slow down the speed of light.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question3": {
+            "assertion": "The power of an electric device is the rate at which it consumes energy.",
+            "reason": "Power is the product of current and voltage, which is the rate of energy consumption.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question4": {
+            "assertion": "The resistance of a conductor is directly proportional to its length.",
+            "reason": "Resistance increases as the length of the conductor increases.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question5": {
+            "assertion": "Electric current can pass through a vacuum.",
+            "reason": "A vacuum provides no resistance to the flow of electric charge.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          }
+        }
+      },
+      "chapter3": {
+        "mcqs": {
+          "question1": {
+            "questionText": "What is the unit of electric charge?",
+            "options": [
+              "Coulomb",
+              "Ampere",
+              "Volt",
+              "Watt"
+            ],
+            "answer": "Coulomb"
+          },
+          "question2": {
+            "questionText": "Which of the following is a conductor?",
+            "options": [
+              "Copper",
+              "Wood",
+              "Rubber",
+              "Glass"
+            ],
+            "answer": "Copper"
+          },
+          "question3": {
+            "questionText": "What is the potential difference across a conductor?",
+            "options": [
+              "Current",
+              "Voltage",
+              "Power",
+              "Resistance"
+            ],
+            "answer": "Voltage"
+          },
+          "question4": {
+            "questionText": "The electrical resistance of a conductor depends on its:",
+            "options": [
+              "Length",
+              "Temperature",
+              "Material",
+              "All of the above"
+            ],
+            "answer": "All of the above"
+          },
+          "question5": {
+            "questionText": "Which of the following describes Ohm’s Law?",
+            "options": [
+              "V = IR",
+              "V = I/R",
+              "V = I + R",
+              "V = R/I"
+            ],
+            "answer": "V = IR"
+          }
+        },
+        "assertionReasoning": {
+          "question1": {
+            "assertion": "Resistance is inversely proportional to the cross-sectional area of a conductor.",
+            "reason": "A larger cross-sectional area allows more flow of current.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question2": {
+            "assertion": "Electric potential difference is the work done to move a charge between two points.",
+            "reason": "This work is done against the electric field.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question3": {
+            "assertion": "Current is the flow of electric charge.",
+            "reason": "The amount of charge passing through a conductor per second is defined as current.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question4": {
+            "assertion": "Resistance increases with increasing temperature for most conductors.",
+            "reason": "Higher temperatures cause more vibrations of atoms, which impede the flow of electrons.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question5": {
+            "assertion": "Ohm’s Law is applicable to both conductors and insulators.",
+            "reason": "Ohm’s Law is only applicable to materials that obey a linear relation between voltage and current.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are False"
+          }
+        }
+      }
+    },
+    "Maths_Chapters": {
+      "chapter1": {
+        "mcqs": {
+          "question1": {
+            "questionText": "Which of the following is a subset of every set?",
+            "options": [
+              "Empty set",
+              "Universal set",
+              "Singleton set",
+              "Finite set"
+            ],
+            "answer": "Empty set"
+          },
+          "question2": {
+            "questionText": "What is the cardinality of the set A = {1, 2, 3, 4}?",
+            "options": [
+              "3",
+              "4",
+              "5",
+              "0"
+            ],
+            "answer": "4"
+          },
+          "question3": {
+            "questionText": "If A = {1, 2} and B = {2, 3}, then A ∪ B = ?",
+            "options": [
+              "{1, 2, 3}",
+              "{2}",
+              "{1, 3}",
+              "{1, 2}"
+            ],
+            "answer": "{1, 2, 3}"
+          },
+          "question4": {
+            "questionText": "Which of the following symbols denotes a proper subset?",
+            "options": [
+              "⊆",
+              "⊂",
+              "∈",
+              "⊃"
+            ],
+            "answer": "⊂"
+          },
+          "question5": {
+            "questionText": "What is the intersection of sets A = {1, 2, 3} and B = {2, 3, 4}?",
+            "options": [
+              "{1, 2}",
+              "{2, 3}",
+              "{1, 4}",
+              "{3}"
+            ],
+            "answer": "{2, 3}"
+          }
+        },
+        "assertionReasoning": {
+          "question1": {
+            "assertion": "The empty set is a subset of every set.",
+            "reason": "A set with no elements can never contradict any element of another set.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question2": {
+            "assertion": "The set of all even numbers is infinite.",
+            "reason": "Even numbers are multiples of 2 and go on indefinitely.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question3": {
+            "assertion": "Every set is a subset of itself.",
+            "reason": "This is because all elements of a set are also elements of itself.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question4": {
+            "assertion": "Universal set contains all sets under consideration.",
+            "reason": "Universal set varies depending on the context.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question5": {
+            "assertion": "Two sets are equal if they have the same elements.",
+            "reason": "The order of elements in a set matters.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Assertion is True, Reason is False"
+          }
+        }
+      },
+      "chapter2": {
+        "mcqs": {
+          "question1": {
+            "questionText": "What is the value of sin(90°)?",
+            "options": [
+              "0",
+              "1",
+              "-1",
+              "0.5"
+            ],
+            "answer": "1"
+          },
+          "question2": {
+            "questionText": "What is the value of cos(0°)?",
+            "options": [
+              "0",
+              "1",
+              "-1",
+              "Undefined"
+            ],
+            "answer": "1"
+          },
+          "question3": {
+            "questionText": "tan(θ) is equal to?",
+            "options": [
+              "sin(θ)/cos(θ)",
+              "cos(θ)/sin(θ)",
+              "sin(θ)×cos(θ)",
+              "cos(θ)+sin(θ)"
+            ],
+            "answer": "sin(θ)/cos(θ)"
+          },
+          "question4": {
+            "questionText": "What is the value of sin²(θ) + cos²(θ)?",
+            "options": [
+              "1",
+              "0",
+              "θ",
+              "2"
+            ],
+            "answer": "1"
+          },
+          "question5": {
+            "questionText": "Which quadrant is sin(θ) positive and cos(θ) negative?",
+            "options": [
+              "I",
+              "II",
+              "III",
+              "IV"
+            ],
+            "answer": "II"
+          }
+        },
+        "assertionReasoning": {
+          "question1": {
+            "assertion": "sin(90°) = 1",
+            "reason": "Sine of 90 degrees is the maximum value of the sine function.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question2": {
+            "assertion": "tan(90°) is undefined.",
+            "reason": "At 90°, cos(θ) is 0 and division by zero is undefined.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question3": {
+            "assertion": "cos(180°) = -1.",
+            "reason": "Cosine of angle in second quadrant is negative.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Assertion is True, Reason is False"
+          },
+          "question4": {
+            "assertion": "Trigonometric functions are periodic.",
+            "reason": "The values of these functions repeat after a fixed interval.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question5": {
+            "assertion": "cot(θ) = 1/tan(θ)",
+            "reason": "cotangent is the reciprocal of tangent function.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          }
+        }
+      }
+    },
+    "Chemistry_Chapters": {
+      "chapter1": {
+        "mcqs": {
+          "question1": {
+            "questionText": "Which of the following is a SI unit of amount of substance?",
+            "options": [
+              "Mole",
+              "Gram",
+              "Kilogram",
+              "Liter"
+            ],
+            "answer": "Mole"
+          },
+          "question2": {
+            "questionText": "What is the molar mass of water (H₂O)?",
+            "options": [
+              "18 g/mol",
+              "16 g/mol",
+              "20 g/mol",
+              "10 g/mol"
+            ],
+            "answer": "18 g/mol"
+          },
+          "question3": {
+            "questionText": "Which law states that mass can neither be created nor destroyed?",
+            "options": [
+              "Law of Conservation of Mass",
+              "Law of Definite Proportions",
+              "Law of Multiple Proportions",
+              "Avogadro's Law"
+            ],
+            "answer": "Law of Conservation of Mass"
+          },
+          "question4": {
+            "questionText": "Avogadro's number is:",
+            "options": [
+              "6.022 × 10²³",
+              "3.011 × 10²³",
+              "1.602 × 10⁻¹⁹",
+              "9.109 × 10⁻³¹"
+            ],
+            "answer": "6.022 × 10²³"
+          },
+          "question5": {
+            "questionText": "Which of the following represents the empirical formula?",
+            "options": [
+              "CH₂O",
+              "C₆H₁₂O₆",
+              "C₂H₄O₂",
+              "C₃H₆O₃"
+            ],
+            "answer": "CH₂O"
+          }
+        },
+        "assertionReasoning": {
+          "question1": {
+            "assertion": "Equal moles of different substances contain the same number of molecules.",
+            "reason": "One mole of any substance contains Avogadro's number of particles.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question2": {
+            "assertion": "The empirical formula of glucose is CH₂O.",
+            "reason": "Empirical formula represents the simplest whole-number ratio of atoms in a compound.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question3": {
+            "assertion": "Law of multiple proportions applies to compounds formed by different elements.",
+            "reason": "It states that when two elements form more than one compound, the masses of one element that combine with a fixed mass of the other are in the ratio of small whole numbers.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question4": {
+            "assertion": "Molar mass is the mass of one mole of a substance.",
+            "reason": "It is expressed in grams per mole (g/mol).",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question5": {
+            "assertion": "The molecular formula of a compound is always the same as its empirical formula.",
+            "reason": "Empirical formula gives the actual number of atoms of each element in a molecule.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are False"
+          }
+        }
+      },
+      "chapter2": {
+        "mcqs": {
+          "question1": {
+            "questionText": "Who proposed the planetary model of the atom?",
+            "options": [
+              "Bohr",
+              "Rutherford",
+              "Thomson",
+              "Dalton"
+            ],
+            "answer": "Bohr"
+          },
+          "question2": {
+            "questionText": "The charge of an electron is:",
+            "options": [
+              "-1.602 × 10⁻¹⁹ C",
+              "+1.602 × 10⁻¹⁹ C",
+              "0 C",
+              "1 C"
+            ],
+            "answer": "-1.602 × 10⁻¹⁹ C"
+          },
+          "question3": {
+            "questionText": "Which quantum number determines the shape of an orbital?",
+            "options": [
+              "Azimuthal quantum number (l)",
+              "Principal quantum number (n)",
+              "Magnetic quantum number (m)",
+              "Spin quantum number (s)"
+            ],
+            "answer": "Azimuthal quantum number (l)"
+          },
+          "question4": {
+            "questionText": "The number of orbitals in the third shell (n=3) is:",
+            "options": [
+              "9",
+              "3",
+              "6",
+              "18"
+            ],
+            "answer": "9"
+          },
+          "question5": {
+            "questionText": "Which of the following statements is true?",
+            "options": [
+              "Electrons revolve in fixed orbits around the nucleus.",
+              "Electrons have a definite path.",
+              "Heisenberg's uncertainty principle allows precise measurement of position and momentum.",
+              "Electrons are stationary in orbitals."
+            ],
+            "answer": "Electrons revolve in fixed orbits around the nucleus."
+          }
+        },
+        "assertionReasoning": {
+          "question1": {
+            "assertion": "Rutherford's model could not explain the stability of atoms.",
+            "reason": "According to classical physics, electrons revolving around the nucleus would emit energy and spiral into the nucleus.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question2": {
+            "assertion": "Bohr's model introduced the concept of quantized energy levels.",
+            "reason": "Electrons can occupy any energy level around the nucleus.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Assertion is True, Reason is False"
+          },
+          "question3": {
+            "assertion": "The principal quantum number determines the energy of an electron.",
+            "reason": "It also indicates the size of the orbital.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Both Assertion and Reason are True"
+          },
+          "question4": {
+            "assertion": "Heisenberg's uncertainty principle states that the exact position and momentum of an electron cannot be simultaneously known.",
+            "reason": "This principle is significant only for macroscopic particles.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Assertion is True, Reason is False"
+          },
+          "question5": {
+            "assertion": "The azimuthal quantum number determines the orientation of an orbital.",
+            "reason": "It defines the shape of the orbital.",
+            "options": [
+              "Both Assertion and Reason are True",
+              "Both Assertion and Reason are False",
+              "Assertion is True, Reason is False",
+              "Assertion is False, Reason is True"
+            ],
+            "answer": "Assertion is False, Reason is True"
+          }
+        }
+      }
+    }
+  }
+}
